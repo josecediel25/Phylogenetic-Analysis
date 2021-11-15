@@ -1,0 +1,40 @@
+tnt*>mxram 1900;
+TNT - max. ram = 1900.00 Mbytes
+No ram used yet
+tnt*>ttags=;
+tnt*>taxname=;
+Taxon names is ON
+tnt*>proc Matriz_ET.tnt;
+Reading from E:\Programas siste\PROGRAMAS\TNT\Matriz_ET.tnt
+Matrices will be read as alpha-numeric data
+Matrix space: allocate for up to 32 states
+'Data from
+   Morfologia.tnt, Matriz_Molecular_Concatenada.tnt
+merged together'
+Matrix (5110x23, 32 states). Memory required for data:  22.02 Mbytes
+tnt*>outgroup Lemur_catta;
+Outgroup is taxon 1  -  Lemur_catta
+tnt*>mult= rep 150 hold 30 tbr ratchet= iter 10;
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+150   RAT        3 of 3      ------      24195        0:08:26    61,904,410
+Completed 150 random addition sequences.
+Total rearrangements examined: 61,904,410.
+Best score hit 116 times out of 150.
+Best score (TBR): 24195.  1 trees retained.
+No command!
+mult= rep 150 hold 30 tbr ratchet= iter 10;
+
+tnt*>nelsen*;
+Note: for consensus calculation, trees will be
+temporarily collapsed (when min. branch length = 0)
+Strict consensus of 1 trees (0 taxa excluded) calculated, as tree 1
+tnt*>tchoose /;
+Selecting tree(s) 1,
+1 trees selected
+tnt*>resample boot replications 1500;
+Copied legends: "GC values, 1500 replicates, cut=0 (tree 0) - Standard Bootstra
+Average group support: 46.9
+
+tnt*>export * ET_parsi.tre
+export>;
+Saved data and trees (Nexus format) to file ET_parsi.tre

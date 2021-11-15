@@ -1,0 +1,164 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-0C4IJFN (SSE4.2, 3 GB RAM)
+Command: iqtree.exe -s Morfologia.txt -ninit 150 -ntop 30 -nbest 10 -o Echinops_telfairi -o Lemur_catta -bb 100000
+Seed:    471636 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 25 20:41:47 2020
+Kernel:  SSE2 - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file Morfologia.txt ... Phylip format detected
+Alignment most likely contains 5-state morphological data
+Alignment has 23 sequences with 10 columns, 10 distinct patterns
+10 parsimony-informative, 0 singleton sites, 0 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  Echinops_telfairi      0.00%    passed     16.25%
+   2  Lemur_catta            0.00%    passed     79.07%
+   3  Bos_taurus             0.00%    passed     34.55%
+   4  Tursiops_truncatus    10.00%    passed     40.88%
+   5  Sus_scrofa             0.00%    passed     34.55%
+   6  Equus_asinus           0.00%    passed     34.55%
+   7  Ceratotherium_simum    0.00%    passed     17.63%
+   8  Equus_caballus         0.00%    passed     17.63%
+   9  Canis_lupus            0.00%    passed     89.06%
+  10  Phoca_vitulina         0.00%    passed     89.06%
+  11  Felis_catus            0.00%    passed     71.21%
+  12  Manis_javanica         0.00%    passed     52.07%
+  13  Galemys_pyrenaicus     0.00%    passed     84.63%
+  14  Hemiechinus_auritus    0.00%    passed     84.63%
+  15  Sorex_araneus          0.00%    passed     84.63%
+  16  Mogera_wogura          0.00%    passed     84.63%
+  17  Condylura_cristata     0.00%    passed     84.63%
+  18  Erinaceus_europaeus    0.00%    passed     84.63%
+  19  Hylomys_suillus        0.00%    passed     84.63%
+  20  Myotis_davidii        10.00%    passed     40.13%
+  21  Desmodus_rotundus     10.00%    passed     40.13%
+  22  Pteropus_alecto       10.00%    passed     40.13%
+  23  Cynopterus_sphinx     10.00%    passed     40.13%
+****  TOTAL                  2.17%  0 sequences failed composition chi2 test (p-value<5%; df=4)
+NOTE: Equus_asinus is identical to Sus_scrofa but kept for subsequent analysis
+NOTE: Equus_caballus is identical to Ceratotherium_simum but kept for subsequent analysis
+NOTE: Phoca_vitulina is identical to Canis_lupus but kept for subsequent analysis
+NOTE: Hemiechinus_auritus is identical to Galemys_pyrenaicus but kept for subsequent analysis
+NOTE: Desmodus_rotundus is identical to Myotis_davidii but kept for subsequent analysis
+NOTE: 7 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: Sorex_araneus (identical to Galemys_pyrenaicus) is ignored but added at the end
+NOTE: Mogera_wogura (identical to Galemys_pyrenaicus) is ignored but added at the end
+NOTE: Condylura_cristata (identical to Galemys_pyrenaicus) is ignored but added at the end
+NOTE: Erinaceus_europaeus (identical to Galemys_pyrenaicus) is ignored but added at the end
+NOTE: Hylomys_suillus (identical to Galemys_pyrenaicus) is ignored but added at the end
+NOTE: Pteropus_alecto (identical to Myotis_davidii) is ignored but added at the end
+NOTE: Cynopterus_sphinx (identical to Myotis_davidii) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to Morfologia.txt.uniqueseq.phy
+
+Creating fast initial parsimony tree by random order stepwise addition...
+0.011 seconds, parsimony score: 32 (based on 10 sites)
+NOTE: ModelFinder requires 6 MB RAM!
+ModelFinder will test 22 morphological models (sample size: 10) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  MK+FQ         123.064      29  304.128      2044.128     312.903
+  2  MK+FQ+ASC     122.922      29  303.845      2043.845     312.620
+  3  MK+FQ+G4      123.024      30  306.049      2166.049     315.126
+  4  MK+FQ+ASC+G4  122.922      30  305.844      2165.844     314.922
+  5  MK+FQ+R2      123.057      31  308.113      2292.113     317.494
+  6  MK+FQ+R3      122.124      33  310.248      2554.248     320.233
+ 14  MK+FQ+ASC+R2  121.803      31  305.606      2289.606     314.986
+ 15  MK+FQ+ASC+R3  121.763      33  309.526      2553.526     319.512
+Akaike Information Criterion:           MK+FQ+ASC
+Corrected Akaike Information Criterion: MK+FQ+ASC
+Bayesian Information Criterion:         MK+FQ+ASC
+Best-fit model: MK+FQ+ASC chosen according to BIC
+
+All model information printed to Morfologia.txt.model.gz
+CPU time for ModelFinder: 0.062 seconds (0h:0m:0s)
+Wall-clock time for ModelFinder: 0.220 seconds (0h:0m:0s)
+Generating 100000 samples for ultrafast bootstrap (seed: 471636)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -122.922
+Optimal log-likelihood: -122.816
+Parameters optimization took 1 rounds (0.010 sec)
+Computing ML distances based on estimated model parameters... 0.000 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.014 seconds
+Log-likelihood of BIONJ tree: -122.153
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 148 parsimony trees... 0.216 second
+Computing log-likelihood of 148 initial trees ... 0.296 seconds
+Current best score: -119.778
+
+Do NNI search on 30 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -119.738
+BETTER TREE FOUND at iteration 4: -119.737
+Iteration 10 / LogL: -119.953 / Time: 0h:0m:3s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -119.720
+Iteration 20 / LogL: -120.355 / Time: 0h:0m:6s
+Iteration 30 / LogL: -119.953 / Time: 0h:0m:8s (0h:0m:26s left)
+Finish initializing candidate tree set (20)
+Current best tree score: -119.720 / CPU time: 12.027
+Number of iterations: 30
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 40 / LogL: -119.722 / Time: 0h:0m:29s (0h:0m:59s left)
+Iteration 50 / LogL: -119.737 / Time: 0h:0m:49s (0h:1m:8s left)
+Log-likelihood cutoff on original alignment: -133.259
+Iteration 60 / LogL: -119.720 / Time: 0h:1m:18s (0h:1m:17s left)
+Iteration 70 / LogL: -119.722 / Time: 0h:1m:37s (0h:1m:7s left)
+Iteration 80 / LogL: -119.720 / Time: 0h:1m:56s (0h:0m:55s left)
+Iteration 90 / LogL: -119.720 / Time: 0h:2m:16s (0h:0m:43s left)
+Iteration 100 / LogL: -119.720 / Time: 0h:2m:35s (0h:0m:28s left)
+Log-likelihood cutoff on original alignment: -134.976
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.995
+Iteration 110 / LogL: -119.720 / Time: 0h:3m:1s (0h:2m:30s left)
+UPDATE BEST LOG-LIKELIHOOD: -119.720
+TREE SEARCH COMPLETED AFTER 119 ITERATIONS / Time: 0h:3m:22s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -119.720
+Optimal log-likelihood: -119.720
+Parameters optimization took 1 rounds (0.008 sec)
+BEST SCORE FOUND : -119.720
+Creating bootstrap support values...
+Split supports printed to NEXUS file Morfologia.txt.splits.nex
+Total tree length: 5.027
+
+Total number of iterations: 119
+CPU time used for tree search: 198.516 sec (0h:3m:18s)
+Wall-clock time used for tree search: 202.335 sec (0h:3m:22s)
+Total CPU time used: 207.688 sec (0h:3m:27s)
+Total wall-clock time used: 212.578 sec (0h:3m:32s)
+
+Computing bootstrap consensus tree...
+Reading input file Morfologia.txt.splits.nex...
+16 taxa and 315 splits.
+Consensus tree written to Morfologia.txt.contree
+Reading input trees file Morfologia.txt.contree
+Log-likelihood of consensus tree: -120.779
+
+Analysis results written to: 
+  IQ-TREE report:                Morfologia.txt.iqtree
+  Maximum-likelihood tree:       Morfologia.txt.treefile
+  Likelihood distances:          Morfologia.txt.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Morfologia.txt.splits.nex
+  Consensus tree:                Morfologia.txt.contree
+  Screen log file:               Morfologia.txt.log
+
+Date and Time: Tue Aug 25 20:45:24 2020

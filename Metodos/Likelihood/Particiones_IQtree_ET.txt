@@ -1,0 +1,6 @@
+charset part1 = Matriz_Molecular_Concatenada.nex: DNA, 1-1141;
+charset part2 = Matriz_Molecular_Concatenada.nex: DNA, 1142-3411;
+charset part3 = Matriz_Molecular_Concatenada.nex: DNA, 3412-4366;
+charset part4 = Matriz_Molecular_Concatenada.nex: DNA, 4367-5100;
+charset part5 = Morfologia.txt: MORPH, 1-10;
+charpartition mine = GTR+F+R3:part1, TIM2+F+G4:part2, GTR+F+R3:part3,GTR+F+I+G4:part4, MK+FQ+ASC:part5;
