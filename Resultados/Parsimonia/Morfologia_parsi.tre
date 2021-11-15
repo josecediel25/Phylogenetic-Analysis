@@ -1,0 +1,38 @@
+#NEXUS
+begin data;
+dimensions ntax=23 nchar=10;
+format missing=? symbols="0~4";
+matrix
+Echinops_telfairi 4100112214
+Lemur_catta      0100032111
+'Bos_taurus'     1120220000
+'Tursiops_truncatus' 20?0310010
+'Sus_scrofa'     1020220010
+'Equus_asinus'   1020220010
+'Ceratotherium_simum' 1020230000
+'Equus_caballus' 1020230000
+'Canis_lupus'    0110011122
+'Phoca_vitulina' 0110011122
+'Felis_catus'    0110111122
+'Manis_javanica' 3010141011
+'Galemys_pyrenaicus' 1100111204
+'Hemiechinus_auritus' 1100111204
+'Sorex_araneus'  1100111204
+'Mogera_wogura'  1100111204
+'Condylura_cristata' 1100111204
+'Erinaceus_europaeus' 1100111204
+'Hylomys_suillus' 1100111204
+'Myotis_davidii' 11?1111203
+'Desmodus_rotundus' 11?1111203
+'Pteropus_alecto' 11?1111203
+'Cynopterus_sphinx' 11?1111203
+;
+end;
+
+begin trees ; 
+tree tagged_tree = [&U] 
+(Lemur_catta,(((Echinops_telfairi,('Galemys_pyrenaicus','Hemiechinus_auritus','Sorex_araneus','Mogera_wogura','Condylura_cristata','Erinaceus_europaeus','Hylomys_suillus',('Myotis_davidii','Desmodus_rotundus','Pteropus_alecto','Cynopterus_sphinx')72)36)10,('Manis_javanica',('Tursiops_truncatus',(('Bos_taurus',('Ceratotherium_simum','Equus_caballus')38)36,('Sus_scrofa','Equus_asinus')0)32)64)34)4,('Felis_catus',('Canis_lupus','Phoca_vitulina')27)56)100);
+tree tnt_1 = [&U] 
+(Lemur_catta ,(((Echinops_telfairi ,('Galemys_pyrenaicus' ,'Hemiechinus_auritus' ,'Sorex_araneus' ,'Mogera_wogura' ,'Condylura_cristata' ,'Erinaceus_europaeus' ,'Hylomys_suillus' ,('Myotis_davidii' ,'Desmodus_rotundus' ,'Pteropus_alecto' ,'Cynopterus_sphinx' ))),('Manis_javanica' ,('Tursiops_truncatus' ,(('Bos_taurus' ,('Ceratotherium_simum' ,'Equus_caballus' )),('Sus_scrofa' ,'Equus_asinus' ))))),('Felis_catus' ,('Canis_lupus' ,'Phoca_vitulina' ))));
+
+end ; 

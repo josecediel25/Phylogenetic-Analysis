@@ -1,0 +1,34 @@
+mxram 1500;
+TNT - max. ram = 1500.00 Mbytes
+No ram used yet
+tnt*>ttags=;
+tnt*>taxname=;
+Taxon names is ON
+tnt*>proc Morfologia.tnt;
+Reading from E:\Programas siste\PROGRAMAS\TNT\Morfologia.tnt
+Matrix (10x23, 16 states). Memory required for data:   0.04 Mbytes
+tnt*>outgroup Lemur_catta;
+Outgroup is taxon 1  -  Lemur_catta
+tnt*>mult= rep 150 hold 30 tbr ratchet= iter 10;
+Repl. Algor.     Tree        Score       Best Score   Time       Rearrangs.
+150   RAT        2 of 2      ------      30           0:00:02    65,615,019
+Completed 150 random addition sequences.
+Total rearrangements examined: 65,615,019.
+Best score hit 150 times out of 150.
+Best score (TBR): 30.  2 trees retained.
+No command!
+mult= rep 150 hold 30 tbr ratchet= iter 10;
+tnt*>nelsen*;
+Note: for consensus calculation, trees will be
+temporarily collapsed (when min. branch length = 0)
+Strict consensus of 2 trees (0 taxa excluded) calculated, as tree 2
+tnt*>tchoose /;
+Selecting tree(s) 2,
+1 trees selected
+tnt*>resample boot replications 1500;
+Copied legends: "GC values, 1500 replicates, cut=0 (tree 0) - Standard Bootstra
+Average group support: 24.5
+export * Morfologia_parsi.tre
+export>;
+Saved data and trees (Nexus format) to file Morfologia_parsi.tre
+tnt*>

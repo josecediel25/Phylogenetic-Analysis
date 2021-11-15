@@ -1,0 +1,327 @@
+IQ-TREE multicore version 1.6.12 for Windows 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-0C4IJFN (SSE4.2, 3 GB RAM)
+Command: iqtree.exe -spp Particiones_IQtree_Molecular.nex -ninit 150 -ntop 30 -nbest 10 -o Echinops_telfairi -o Lemur_catta -bb 100000
+Seed:    288140 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Aug 25 21:18:57 2020
+Kernel:  SSE2 - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading partition model file Particiones_IQtree_Molecular.nex ...
+
+Loading 4 partitions...
+Reading alignment file Matriz_Molecular_Concatenada.nex ... Nexus format detected
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 5100 columns, 4139 distinct patterns
+4000 parsimony-informative, 519 singleton sites, 581 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  Echinops_telfairi      0.12%    failed      0.00%
+   2  Hylomys_suillus       28.96%    failed      0.00%
+   3  Hemiechinus_auritus   31.59%    failed      0.00%
+   4  Erinaceus_europaeus    0.10%    failed      0.00%
+   5  Manis_javanica        14.57%    failed      1.27%
+   6  Lemur_catta            0.08%    failed      0.13%
+   7  Myotis_davidii        14.45%    passed     11.27%
+   8  Desmodus_rotundus     44.57%    failed      0.00%
+   9  Tursiops_truncatus     0.14%    passed     13.41%
+  10  Sorex_araneus          3.49%    passed     42.10%
+  11  Canis_lupus           44.57%    failed      0.00%
+  12  Pteropus_alecto       44.67%    failed      0.02%
+  13  Cynopterus_sphinx     19.63%    passed     94.44%
+  14  Felis_catus            0.10%    failed      2.75%
+  15  Bos_taurus             0.10%    failed      1.32%
+  16  Phoca_vitulina         0.12%    failed      0.09%
+  17  Ceratotherium_simum   26.16%    passed      7.84%
+  18  Equus_asinus          40.82%    failed      0.00%
+  19  Equus_caballus        26.37%    failed      0.60%
+  20  Sus_scrofa             0.08%    failed      0.09%
+  21  Galemys_pyrenaicus     0.08%    failed      0.01%
+  22  Mogera_wogura         44.57%    failed      2.52%
+  23  Condylura_cristata     4.31%    passed      8.92%
+****  TOTAL                 16.94%  17 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Matriz_Molecular_Concatenada.nex ... Nexus format detected
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 5100 columns, 4139 distinct patterns
+4000 parsimony-informative, 519 singleton sites, 581 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  Echinops_telfairi      0.12%    failed      0.00%
+   2  Hylomys_suillus       28.96%    failed      0.00%
+   3  Hemiechinus_auritus   31.59%    failed      0.00%
+   4  Erinaceus_europaeus    0.10%    failed      0.00%
+   5  Manis_javanica        14.57%    failed      1.27%
+   6  Lemur_catta            0.08%    failed      0.13%
+   7  Myotis_davidii        14.45%    passed     11.27%
+   8  Desmodus_rotundus     44.57%    failed      0.00%
+   9  Tursiops_truncatus     0.14%    passed     13.41%
+  10  Sorex_araneus          3.49%    passed     42.10%
+  11  Canis_lupus           44.57%    failed      0.00%
+  12  Pteropus_alecto       44.67%    failed      0.02%
+  13  Cynopterus_sphinx     19.63%    passed     94.44%
+  14  Felis_catus            0.10%    failed      2.75%
+  15  Bos_taurus             0.10%    failed      1.32%
+  16  Phoca_vitulina         0.12%    failed      0.09%
+  17  Ceratotherium_simum   26.16%    passed      7.84%
+  18  Equus_asinus          40.82%    failed      0.00%
+  19  Equus_caballus        26.37%    failed      0.60%
+  20  Sus_scrofa             0.08%    failed      0.09%
+  21  Galemys_pyrenaicus     0.08%    failed      0.01%
+  22  Mogera_wogura         44.57%    failed      2.52%
+  23  Condylura_cristata     4.31%    passed      8.92%
+****  TOTAL                 16.94%  17 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Matriz_Molecular_Concatenada.nex ... Nexus format detected
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 5100 columns, 4139 distinct patterns
+4000 parsimony-informative, 519 singleton sites, 581 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  Echinops_telfairi      0.12%    failed      0.00%
+   2  Hylomys_suillus       28.96%    failed      0.00%
+   3  Hemiechinus_auritus   31.59%    failed      0.00%
+   4  Erinaceus_europaeus    0.10%    failed      0.00%
+   5  Manis_javanica        14.57%    failed      1.27%
+   6  Lemur_catta            0.08%    failed      0.13%
+   7  Myotis_davidii        14.45%    passed     11.27%
+   8  Desmodus_rotundus     44.57%    failed      0.00%
+   9  Tursiops_truncatus     0.14%    passed     13.41%
+  10  Sorex_araneus          3.49%    passed     42.10%
+  11  Canis_lupus           44.57%    failed      0.00%
+  12  Pteropus_alecto       44.67%    failed      0.02%
+  13  Cynopterus_sphinx     19.63%    passed     94.44%
+  14  Felis_catus            0.10%    failed      2.75%
+  15  Bos_taurus             0.10%    failed      1.32%
+  16  Phoca_vitulina         0.12%    failed      0.09%
+  17  Ceratotherium_simum   26.16%    passed      7.84%
+  18  Equus_asinus          40.82%    failed      0.00%
+  19  Equus_caballus        26.37%    failed      0.60%
+  20  Sus_scrofa             0.08%    failed      0.09%
+  21  Galemys_pyrenaicus     0.08%    failed      0.01%
+  22  Mogera_wogura         44.57%    failed      2.52%
+  23  Condylura_cristata     4.31%    passed      8.92%
+****  TOTAL                 16.94%  17 sequences failed composition chi2 test (p-value<5%; df=3)
+Reading alignment file Matriz_Molecular_Concatenada.nex ... Nexus format detected
+WARNING: 4 sites contain only gaps or ambiguous characters.
+Alignment has 23 sequences with 5100 columns, 4139 distinct patterns
+4000 parsimony-informative, 519 singleton sites, 581 constant sites
+                     Gap/Ambiguity  Composition  p-value
+   1  Echinops_telfairi      0.12%    failed      0.00%
+   2  Hylomys_suillus       28.96%    failed      0.00%
+   3  Hemiechinus_auritus   31.59%    failed      0.00%
+   4  Erinaceus_europaeus    0.10%    failed      0.00%
+   5  Manis_javanica        14.57%    failed      1.27%
+   6  Lemur_catta            0.08%    failed      0.13%
+   7  Myotis_davidii        14.45%    passed     11.27%
+   8  Desmodus_rotundus     44.57%    failed      0.00%
+   9  Tursiops_truncatus     0.14%    passed     13.41%
+  10  Sorex_araneus          3.49%    passed     42.10%
+  11  Canis_lupus           44.57%    failed      0.00%
+  12  Pteropus_alecto       44.67%    failed      0.02%
+  13  Cynopterus_sphinx     19.63%    passed     94.44%
+  14  Felis_catus            0.10%    failed      2.75%
+  15  Bos_taurus             0.10%    failed      1.32%
+  16  Phoca_vitulina         0.12%    failed      0.09%
+  17  Ceratotherium_simum   26.16%    passed      7.84%
+  18  Equus_asinus          40.82%    failed      0.00%
+  19  Equus_caballus        26.37%    failed      0.60%
+  20  Sus_scrofa             0.08%    failed      0.09%
+  21  Galemys_pyrenaicus     0.08%    failed      0.01%
+  22  Mogera_wogura         44.57%    failed      2.52%
+  23  Condylura_cristata     4.31%    passed      8.92%
+****  TOTAL                 16.94%  17 sequences failed composition chi2 test (p-value<5%; df=3)
+Subset	Type	Seqs	Sites	Infor	Invar	Model	Name
+1	DNA	23	1141	566	160	GTR+F+R3	part1
+2	DNA	19	2270	2263	1	TIM2+F+G4	part2
+3	DNA	23	955	461	418	GTR+F+R3	part3
+4	DNA	20	734	710	2	GTR+F+I+G4	part4
+Degree of missing data: 0.096
+Info: multi-threading strategy over partitions
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.028 seconds
+Generating 100000 samples for ultrafast bootstrap (seed: 288140)...
+
+NOTE: 1601 MB RAM (1 GB) is required!
+WARNING: Memory required per CPU-core (1.56407 GB) is higher than your computer RAM per CPU-core (0 GB), thus multiple runs may exceed RAM!
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -86744.020
+Current log-likelihood at step 1: -83059.255
+Current log-likelihood at step 2: -82972.058
+Current log-likelihood at step 3: -82968.887
+Current log-likelihood at step 4: -82967.441
+Current log-likelihood at step 5: -82966.245
+Current log-likelihood at step 6: -82965.629
+Current log-likelihood at step 7: -82965.198
+Current log-likelihood at step 8: -82964.959
+Current log-likelihood at step 9: -82964.794
+Current log-likelihood at step 10: -82964.719
+Partition-specific rates:  0.635 1.480 0.638 0.556
+Parameters optimization took 9 rounds (4.864 sec)
+
+Computing ML distances based on estimated model parameters... 0.062 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+0.067 seconds
+Log-likelihood of BIONJ tree: -83818.500
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 148 parsimony trees... 3.944 second
+Computing log-likelihood of 148 initial trees ... 19.995 seconds
+Current best score: -82914.453
+
+Do NNI search on 30 best initial trees
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -82901.372
+Current log-likelihood at step 1: -82879.515
+Current log-likelihood at step 2: -82872.101
+Current log-likelihood at step 3: -82866.693
+Current log-likelihood at step 4: -82862.129
+Current log-likelihood at step 5: -82858.465
+Current log-likelihood at step 6: -82855.343
+Current log-likelihood at step 7: -82852.629
+Current log-likelihood at step 8: -82850.264
+Current log-likelihood at step 9: -82848.132
+Current log-likelihood at step 10: -82846.198
+Current log-likelihood at step 11: -82844.443
+Current log-likelihood at step 12: -82842.841
+Current log-likelihood at step 13: -82841.347
+Current log-likelihood at step 14: -82840.017
+Current log-likelihood at step 15: -82838.702
+Current log-likelihood at step 16: -82837.516
+Current log-likelihood at step 17: -82836.346
+Current log-likelihood at step 18: -82835.265
+Current log-likelihood at step 19: -82834.159
+Current log-likelihood at step 20: -82833.091
+Current log-likelihood at step 21: -82832.042
+Current log-likelihood at step 22: -82830.913
+Current log-likelihood at step 23: -82829.725
+Current log-likelihood at step 24: -82828.481
+Current log-likelihood at step 25: -82827.266
+Current log-likelihood at step 26: -82826.061
+Current log-likelihood at step 27: -82824.922
+Current log-likelihood at step 28: -82823.834
+Current log-likelihood at step 29: -82822.838
+Current log-likelihood at step 30: -82821.911
+Current log-likelihood at step 31: -82821.086
+Current log-likelihood at step 32: -82820.351
+Current log-likelihood at step 33: -82819.695
+Current log-likelihood at step 34: -82819.116
+Current log-likelihood at step 35: -82818.611
+Current log-likelihood at step 36: -82818.158
+Current log-likelihood at step 37: -82817.773
+Current log-likelihood at step 38: -82817.438
+Current log-likelihood at step 39: -82817.142
+Current log-likelihood at step 40: -82816.884
+Current log-likelihood at step 41: -82816.661
+Current log-likelihood at step 42: -82816.469
+Current log-likelihood at step 43: -82816.302
+Current log-likelihood at step 44: -82816.155
+Current log-likelihood at step 45: -82816.026
+Current log-likelihood at step 46: -82815.913
+Current log-likelihood at step 47: -82815.810
+Current log-likelihood at step 48: -82815.720
+Parameters optimization took 47 rounds (18.834 sec)
+
+BETTER TREE FOUND at iteration 1: -82815.720
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -82814.222
+Current log-likelihood at step 1: -82813.704
+Current log-likelihood at step 2: -82813.588
+Current log-likelihood at step 3: -82813.506
+Parameters optimization took 2 rounds (1.174 sec)
+
+BETTER TREE FOUND at iteration 3: -82813.506
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -82808.520
+Current log-likelihood at step 1: -82807.784
+Current log-likelihood at step 2: -82807.724
+Parameters optimization took 1 rounds (0.823 sec)
+
+BETTER TREE FOUND at iteration 6: -82807.724
+Iteration 10 / LogL: -82824.673 / Time: 0h:8m:42s
+Iteration 20 / LogL: -82824.987 / Time: 0h:17m:2s
+Estimate model parameters (epsilon = 0.100)
+Initial log-likelihood: -82803.533
+Current log-likelihood at step 1: -82802.310
+Current log-likelihood at step 2: -82802.165
+Current log-likelihood at step 3: -82802.091
+Parameters optimization took 2 rounds (1.144 sec)
+
+BETTER TREE FOUND at iteration 25: -82802.091
+Iteration 30 / LogL: -82878.720 / Time: 0h:26m:46s (1h:27m:41s left)
+Finish initializing candidate tree set (19)
+Current best tree score: -82802.091 / CPU time: 1568.136
+Number of iterations: 30
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 40 / LogL: -82812.257 / Time: 0h:30m:56s (1h:7m:25s left)
+Iteration 50 / LogL: -82812.624 / Time: 0h:33m:54s (0h:51m:54s left)
+Log-likelihood cutoff on original alignment: -82908.643
+Iteration 60 / LogL: -82806.041 / Time: 0h:59m:28s (0h:42m:29s left)
+Iteration 70 / LogL: -82818.009 / Time: 1h:3m:52s (0h:50m:55s left)
+Iteration 80 / LogL: -82803.060 / Time: 1h:8m:24s (0h:38m:57s left)
+Iteration 90 / LogL: -82807.883 / Time: 1h:14m:6s (0h:29m:8s left)
+Iteration 100 / LogL: -82809.979 / Time: 1h:18m:15s (0h:19m:45s left)
+Log-likelihood cutoff on original alignment: -82908.643
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+Iteration 110 / LogL: -82813.605 / Time: 1h:23m:6s (1h:8m:37s left)
+Iteration 120 / LogL: -82805.390 / Time: 1h:27m:28s (0h:58m:48s left)
+TREE SEARCH COMPLETED AFTER 126 ITERATIONS / Time: 1h:29m:56s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+Initial log-likelihood: -82802.081
+Current log-likelihood at step 1: -82802.044
+Current log-likelihood at step 2: -82802.012
+Current log-likelihood at step 3: -82801.984
+Current log-likelihood at step 4: -82801.958
+Current log-likelihood at step 5: -82801.936
+Current log-likelihood at step 6: -82801.915
+Current log-likelihood at step 7: -82801.896
+Current log-likelihood at step 8: -82801.878
+Current log-likelihood at step 9: -82801.864
+Current log-likelihood at step 10: -82801.850
+Current log-likelihood at step 11: -82801.837
+Current log-likelihood at step 12: -82801.825
+Current log-likelihood at step 13: -82801.814
+Current log-likelihood at step 14: -82801.804
+Current log-likelihood at step 15: -82801.793
+Current log-likelihood at step 16: -82801.784
+Partition-specific rates:  1.048 1.105 1.161 0.390
+Parameters optimization took 15 rounds (5.898 sec)
+
+BEST SCORE FOUND : -82801.784
+Creating bootstrap support values...
+Split supports printed to NEXUS file Particiones_IQtree_Molecular.nex.splits.nex
+Total tree length: 19.427
+
+Total number of iterations: 126
+CPU time used for tree search: 3884.141 sec (1h:4m:44s)
+Wall-clock time used for tree search: 5355.739 sec (1h:29m:15s)
+Total CPU time used: 3942.453 sec (1h:5m:42s)
+Total wall-clock time used: 5450.876 sec (1h:30m:50s)
+
+Computing bootstrap consensus tree...
+Reading input file Particiones_IQtree_Molecular.nex.splits.nex...
+23 taxa and 182 splits.
+Consensus tree written to Particiones_IQtree_Molecular.nex.contree
+Reading input trees file Particiones_IQtree_Molecular.nex.contree
+Log-likelihood of consensus tree: -82801.785
+
+Analysis results written to: 
+  IQ-TREE report:                Particiones_IQtree_Molecular.nex.iqtree
+  Maximum-likelihood tree:       Particiones_IQtree_Molecular.nex.treefile
+  Likelihood distances:          Particiones_IQtree_Molecular.nex.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          Particiones_IQtree_Molecular.nex.splits.nex
+  Consensus tree:                Particiones_IQtree_Molecular.nex.contree
+  Screen log file:               Particiones_IQtree_Molecular.nex.log
+
+Date and Time: Tue Aug 25 22:50:10 2020

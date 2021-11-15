@@ -1,0 +1,11 @@
+		DIRICHLET
+run		harmonic_mean		
+1		-8.604479e+04	
+2		-8.604533e+04	
+all		-8.604509e+04	Modelo escogido
+
+		FIXED
+run		harmonic_mean	
+1		-8.680540e+004	
+2		-8.679405e+004	
+all		-8.680471e+004	
